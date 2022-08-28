@@ -6,7 +6,8 @@ import { LinkComponent } from './Mainportal/link/link/link.component';
 const routes: Routes = [
   {path:'' , component:HomeComponent},
   {path:'home', component:HomeComponent},
-  {path:'link', component:LinkComponent }
+  {path:'link', component:LinkComponent },
+  
 ];
 
 @NgModule({

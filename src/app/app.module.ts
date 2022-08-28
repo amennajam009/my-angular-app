@@ -5,16 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Mainportal/Header/header/header.component';
 import { HomeComponent } from './Mainportal/Home/home/home.component';
-import { FooterComponent } from './Mainportal/Footer/footer/footer.component';
+
 import { LinkComponent } from './Mainportal/link/link/link.component';
+import { FooterComponent } from './Mainportal/footer/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent,
+   
     LinkComponent,
+        FooterComponent,
     
   ],
   imports: [
