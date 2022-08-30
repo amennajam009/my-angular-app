@@ -1,6 +1,6 @@
 .navbee{
   font-size: 24px;
-  background-color: black;
+  background-color: #2E2E2E;
   
 }
 .basic-4 {
@@ -9,10 +9,12 @@
       var(--p, 0) 100% /var(--d, 0) 3px 
       no-repeat;
   transition: 0.3s, background-position 0s 0.3s;
+ 
 }
 .basic-4:hover {
   --d: 100%;
   --p: 100%;
+  
 }
 
 
@@ -44,3 +46,9 @@ button:hover:after {
 nav li a{
   margin-right: 50px;
 }
+.container{
+  display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+  }
