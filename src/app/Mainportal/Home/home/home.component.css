@@ -345,12 +345,14 @@ button:hover:after {
     max-width: 100%;
     object-fit: cover;
     
+    
  }
   .lowerpic  .lowerpicpath .Iam {
    padding: 2em 5em;
    font: normal 40px/50px Montserrat, sans-serif;
    color: #999;
-   margin-top: 120%;
+   margin-top: 144%;
+   margin-left: 4%;
   
  }
   .lowerpic .lowerpicpath .Iam p {
@@ -542,3 +544,23 @@ opacity: .7;
     81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
     100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
+
+
+ .uperpicbutton {
+  background-color: gray;
+  color: white;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: .4s;
+  padding: 13px 30px;
+  margin-top: 4%;
+  margin-left: 15%;
+}
+.uperpicbutton:hover{
+  background-color: transparent;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+

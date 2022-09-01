@@ -5,7 +5,7 @@ ul {
   .footer-section {
   background: #151414;
   position: relative;
-  margin-top: 80px;
+  
   }
   .footer-cta {
   border-bottom: 1px solid #373636;
@@ -33,6 +33,7 @@ ul {
   .footer-content {
   position: relative;
   z-index: 2;
+  margin-top: 10%;
   }
   .footer-pattern img {
   position: absolute;
@@ -160,3 +161,37 @@ ul {
   color: #878787;
   }
   
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+nav li a{
+  margin-right: 50px;
+}
+.container{
+  display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+  }

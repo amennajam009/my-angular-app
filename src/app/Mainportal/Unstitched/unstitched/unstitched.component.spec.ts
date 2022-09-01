@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LinkComponent } from './link.component';
+import { UnstitchedComponent } from './unstitched.component';
 
-describe('LinkComponent', () => {
-  let component: LinkComponent;
-  let fixture: ComponentFixture<LinkComponent>;
+describe('UnstitchedComponent', () => {
+  let component: UnstitchedComponent;
+  let fixture: ComponentFixture<UnstitchedComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LinkComponent ]
+      declarations: [ UnstitchedComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LinkComponent);
+    fixture = TestBed.createComponent(UnstitchedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

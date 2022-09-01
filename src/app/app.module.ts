@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Mainportal/Header/header/header.component';
 import { HomeComponent } from './Mainportal/Home/home/home.component';
 
-import { LinkComponent } from './Mainportal/link/link/link.component';
+
 import { FooterComponent } from './Mainportal/footer/footer/footer.component';
+import { ShopComponent } from './Mainportal/shop/shop/shop.component';
+import { UnstitchedComponent } from './Mainportal/Unstitched/unstitched/unstitched.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-   
-    LinkComponent,
-        FooterComponent,
+    FooterComponent,
+    ShopComponent,
+    UnstitchedComponent,
+    
     
   ],
   imports: [
