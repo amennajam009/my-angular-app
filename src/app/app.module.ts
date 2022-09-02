@@ -10,6 +10,10 @@ import { HomeComponent } from './Mainportal/Home/home/home.component';
 import { FooterComponent } from './Mainportal/footer/footer/footer.component';
 import { ShopComponent } from './Mainportal/shop/shop/shop.component';
 import { UnstitchedComponent } from './Mainportal/Unstitched/unstitched/unstitched.component';
+import { ReviewsComponent } from './Mainportal/reviews/reviews/reviews.component';
+import { CollectionComponent } from './Mainportal/collection/collection/collection.component';
+import { LoginComponent } from './Mainportal/login/login/login.component';
+import { PagenotfoundComponent } from './Mainportal/pagenotfound/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { UnstitchedComponent } from './Mainportal/Unstitched/unstitched/unstitch
     FooterComponent,
     ShopComponent,
     UnstitchedComponent,
+    ReviewsComponent,
+    CollectionComponent,
+    LoginComponent,
+    PagenotfoundComponent,
     
     
   ],
