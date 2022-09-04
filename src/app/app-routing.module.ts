@@ -1,4 +1,4 @@
-import { NgModule} from '@angular/core';
+import { NgModule,Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CollectionComponent } from './Mainportal/collection/collection/collection.component';
 import { HeaderComponent } from './Mainportal/Header/header/header.component';
