@@ -12,6 +12,8 @@ import { ReviewsComponent } from './Mainportal/reviews/reviews/reviews.component
 import { CollectionComponent } from './Mainportal/collection/collection/collection.component';
 import { LoginComponent } from './Mainportal/login/login/login.component';
 import { PagenotfoundComponent } from './Mainportal/pagenotfound/pagenotfound/pagenotfound.component';
+import { FooterComponent } from './Mainportal/footer/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { PagenotfoundComponent } from './Mainportal/pagenotfound/pagenotfound/pa
     CollectionComponent,
     LoginComponent,
     PagenotfoundComponent,
-    
+    FooterComponent,
+   
     
   ],
   imports: [

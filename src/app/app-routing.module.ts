@@ -1,6 +1,8 @@
 import { NgModule,Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CollectionComponent } from './Mainportal/collection/collection/collection.component';
+import { FooterComponent } from './Mainportal/footer/footer/footer.component';
+
 import { HeaderComponent } from './Mainportal/Header/header/header.component';
 import { HomeComponent } from './Mainportal/Home/home/home.component';
 import { LoginComponent } from './Mainportal/login/login/login.component';
@@ -20,6 +22,7 @@ const routes: Routes = [
   {path:'collection',component:CollectionComponent},
   {path:'login',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent},
+  {path:'footer',component:FooterComponent}
 
   
   
